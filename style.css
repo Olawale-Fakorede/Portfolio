@@ -1218,6 +1218,7 @@ img{
         justify-content: center;
         /* position: fixed; */
         z-index: 15;
+        margin-bottom: 200px;
     }
     
     
