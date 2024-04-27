@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornsilk;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+
+#mainDiv{
+    height: 85vh;
+    width: 75vw;
+    border: none groove black;
+    box-shadow: -4px 4px 4px 4px rgba(147, 147, 207, 0.534);
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto  auto auto auto auto;
+    gap: -60px;
+    column-gap: -300px;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.myDiv{
+    height: 22vh;
+    width: 12vw;
+    border: none solid black;
+    /* margin-top: 15px; */
+    /* margin-left: 12px; */
+    border-radius: 10px;
+}
+
+img:hover{
+    height: 18vh;
+    width: 10vw;
+    transform: translate3d(20px, 2, 4);
+}
+
+img{
+    height: 14vh;
+    width: 8vw;
+    
+}
