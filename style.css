@@ -1389,7 +1389,7 @@ img{
     
     .footer{
         height: 8vh;
-        width: 200vw;
+        width: 100vw;
         background-color: rgba(124, 119, 119, 0.945);
         border: none solid black;
         margin-top: 500px;
