@@ -15,6 +15,11 @@ function myProjs() {
     // console.log('clicked');
 }
 
+function onContact() {
+    window.location.href = 'contact.html';
+    // console.log('clicked');
+}
+
 
 
 
