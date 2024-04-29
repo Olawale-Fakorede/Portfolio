@@ -6,21 +6,19 @@ body{
     box-sizing: border-box;
     scroll-behavior: smooth;
     background: url(motion.gif);
-    background-size: auto;
+    background-size: cover;
 }
 
 
 .background{
     height: 140vh;
-    width: 100vw;
+    width: 99vw;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background: url(motion.gif); */
-    background-color: rgba(255, 255, 255, 0.521);
+    background-color: rgba(255, 255, 255, 0.137);
     background-size: cover;
     scroll-behavior: smooth;
-    position: absolute;
 }
 
 
@@ -29,20 +27,18 @@ body{
     height: 10vh;
     width: 100vw;
     justify-content: center;
-    /* position: fixed; */
-    z-index: 15;
+    z-index: 5;
 }
 
 
 #navCon{
     height: 10vh;
     width: 50vw;
-    position: absolute;
-    left: 23%;
     justify-content: space-evenly;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: -40px;
-    /* z-index: 10; */
+    z-index: 10;
+    margin-left: 200px;
 }
 
 
@@ -64,11 +60,7 @@ a:hover{
 
 #twoCon{
     height: 80vh;
-    width: 90vw;
-    /* border: 2px solid black; */
-    position: absolute;
-    /* top: 15%;
-    left: 5%; */
+    width: 60vw;
     display: flex;
     flex-direction: row;
     margin-left: 90px;
@@ -206,10 +198,10 @@ img{
 }
 
 .gitHub{
-    width: 600px;
+    width: 200px;
     height: 40px;
     margin-top: 10px;
-    margin-left: 900px;
+    margin-left: 800px;
     /* background-color: antiquewhite; */
     align-items: center;
     display: flex;
@@ -229,7 +221,7 @@ img{
 
     body{
         height: 100vh;
-        width: 99.5vw;
+        width: 100vw;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -241,16 +233,14 @@ img{
     
     
     .background{
-        height: 90vh;
-        width: 100vw;
+        height: 140vh;
+        width: 99vw;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        /* background: url(motion.gif); */
-        background-color: rgba(255, 255, 255, 0.521);
+        background-color: rgba(255, 255, 255, 0.137);
         background-size: cover;
         scroll-behavior: smooth;
-        position: absolute;
     }
     
     
@@ -259,21 +249,18 @@ img{
         height: 10vh;
         width: 100vw;
         justify-content: center;
-        /* position: fixed; */
-        z-index: 15;
+        z-index: 5;
     }
     
     
     #navCon{
         height: 10vh;
-        width: 60vw;
-        position: absolute;
-        left: 17%;
+        width: 80vw;
         justify-content: space-evenly;
-        padding-top: 40px;
+        padding-top: 20px;
         padding-bottom: -40px;
-        /* z-index: 10; */
-        font-size: 20px;
+        z-index: 10;
+        margin-left: 20px;
     }
     
     
@@ -295,10 +282,6 @@ img{
     #twoCon{
         height: 80vh;
         width: 90vw;
-        /* border: 2px solid black; */
-        position: absolute;
-        top: 10%;
-        left: -3%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -343,22 +326,6 @@ img{
         text-shadow: 0 0 3px grey, 0 0 5px rgb(236, 96, 45);
     }
     
-    /* .name1{
-        color: black;
-        font-size: 24px;
-        margin-top: -50px;
-        margin-left: 65px;
-        font-weight: 800;
-    }
-    
-    .name2{
-        color: black;
-        font-size: 24px;
-        margin-top: -50px;
-        margin-left: 65px;
-        font-weight: 800;
-    } */
-    
     .para1{
         font-family: Tahoma;
         font-size: 35px;
@@ -397,7 +364,7 @@ img{
         width: 55vw;
         align-items: center;
         justify-content: space-between;
-        margin-top: -440px;
+        margin-top: 140px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -448,12 +415,12 @@ img{
         width: 100vw;
         background-color: rgba(124, 119, 119, 0.945);
         border: none solid black;
-        margin-top: -300px;
+        margin-top: 180px;
         z-index: 10;
     }
     
     .gitHub{
-        width: 600px;
+        /* width: 600px; */
         height: 40px;
         margin-top: 10px;
         margin-left: 600px;
@@ -473,7 +440,7 @@ img{
     
 }
 
-/* WIDTH 1200 */
+/* WIDTH 992 */
 
 @media (max-width: 992px) {
 
@@ -689,7 +656,7 @@ img{
     }
     
     .gitHub{
-        width: 600px;
+        /* width: 600px; */
         height: 40px;
         margin-top: 10px;
         margin-left: 500px;
@@ -925,7 +892,7 @@ img{
     }
     
     .gitHub{
-        width: 600px;
+        /* width: 600px; */
         height: 40px;
         margin-top: 10px;
         margin-left: 300px;
@@ -1162,7 +1129,7 @@ img{
     }
     
     .gitHub{
-        width: 600px;
+        /* width: 600px; */
         height: 40px;
         margin-top: 10px;
         margin-left: 200px;
@@ -1191,14 +1158,15 @@ img{
         padding: 0;
         box-sizing: border-box;
         scroll-behavior: smooth;
-        background: url(motion.gif);
+        background: url(motion_short.gif);
         background-size: cover;
+        background-position: left ;
         /* background-repeat: repeat; */
     }
     
     
     .background{
-        height: auto;
+        height: 100vh;
         width: 100vw;
         margin: 0;
         padding: 0;
@@ -1213,12 +1181,12 @@ img{
     
     #navbar{
         background-color: rgb(119, 115, 115);
-        height: 7vh;
+        height: 10vh;
         width: 100vw;
         justify-content: center;
-        /* position: fixed; */
+        position: static;
         z-index: 15;
-        margin-bottom: 200px;
+
     }
     
     
@@ -1392,12 +1360,12 @@ img{
         width: 100vw;
         background-color: rgba(124, 119, 119, 0.945);
         border: none solid black;
-        margin-top: 500px;
+        margin-top: 390px;
         z-index: 10;
     }
     
     .gitHub{
-        width: 600px;
+        /* width: 600px; */
         height: 40px;
         margin-top: 10px;
         margin-left: 200px;

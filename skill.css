@@ -15,6 +15,7 @@ body{
 #mainDiv{
     height: 85vh;
     width: 75vw;
+    background-color: rgba(59, 60, 54, 0.37);
     border: none groove black;
     box-shadow: -4px 4px 4px 4px rgba(147, 147, 207, 0.534);
     margin-top: 50px;
