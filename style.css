@@ -1178,7 +1178,6 @@ img{
         /* position: absolute; */
     }
     
-    
     #navbar{
         background-color: rgb(119, 115, 115);
         height: 10vh;
@@ -1186,9 +1185,7 @@ img{
         justify-content: center;
         position: static;
         z-index: 15;
-
     }
-    
     
     #navCon{
         height: 8vh;
@@ -1223,7 +1220,7 @@ img{
         height: 80vh;
         width: 80vw;
         /* border: 2px solid black; */
-        margin-top: 70px;
+        margin-top: 170px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -1248,7 +1245,6 @@ img{
         font-family: 'Times New Roman', Times, serif;
         font-size: 45px;
         font-weight: 800;
-        /* margin-top: -30px; */
         margin-left: 5px;
         margin-bottom: 80px;
         color: rgb(236, 96, 45);
@@ -1274,12 +1270,10 @@ img{
         font-size: 45px;
         font-weight: 550;
         text-align: center;
-        /* margin-top: -50px; */
         color: black;
     }
     
     .webword{
-        margin-top: -20px;
         font-style: italic;
         font-size: 35px;
         font-weight: 900;
@@ -1368,9 +1362,9 @@ img{
         /* width: 600px; */
         height: 40px;
         margin-top: 10px;
-        margin-left: 200px;
+        /* margin-left: 200px; */
         /* background-color: antiquewhite; */
-        align-items: center;
+        align-items: end;
         display: flex;
         flex-direction: row;
     }
