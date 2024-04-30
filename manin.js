@@ -1,5 +1,11 @@
 
 
+function home(){
+    window.location.href = 'index.html';
+    // console.log("clicked");
+}
+
+
 function aboutMe(){
     window.location.href = 'about.html';
     // console.log("clicked");

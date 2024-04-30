@@ -12,14 +12,48 @@ body{
     
 }
 
+#navbar{
+    background-color: silver;
+    height: 10vh;
+    width: 100vw;
+    justify-content: center;
+    z-index: 5;
+}
+
+#navCon{
+    height: 10vh;
+    width: 50vw;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: -40px;
+    z-index: 10;
+    margin-left: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 55px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(236, 96, 45);
+}
+
 #mainDiv{
-    height: 85vh;
-    width: 75vw;
+    height: 75vh;
+    width: 65vw;
     background-color: rgba(59, 60, 54, 0.37);
     border: none groove black;
     box-shadow: -4px 4px 4px 4px rgba(147, 147, 207, 0.534);
     margin-top: 50px;
-    margin-left: 130px;
+    margin-left: 230px;
     border-radius: 20px;
     display: grid;
     grid-template-columns: auto  auto auto auto auto;
@@ -27,6 +61,7 @@ body{
     column-gap: -300px;
     justify-content: space-evenly;
     padding-top: 40px;
+    padding-left: 30px;
 }
 
 .myDiv{
