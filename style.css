@@ -467,7 +467,6 @@ img{
         background-color: rgba(255, 255, 255, 0.521);
         background-size: cover;
         scroll-behavior: smooth;
-        position: absolute;
     }
     
     
@@ -476,31 +475,27 @@ img{
         height: 10vh;
         width: 100vw;
         justify-content: center;
-        /* position: fixed; */
         z-index: 15;
     }
     
     
     #navCon{
         height: 10vh;
-        width: 90vw;
-        position: absolute;
-        left: 5%;
+        width: 100vw;
         justify-content: space-evenly;
-        padding-top: 40px;
-        padding-bottom: -40px;
-        /* z-index: 10; */
-        font-size: 23px;
+        padding-top: 15px;
+        z-index: 10;
+        font-size: 15px;
     }
     
     
     a{
         text-decoration: none;
         color: black;
-        margin-left: 40px;
+        margin-left: 22px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 700;
-        /* font-size: 10px; */
+        font-size: 15px;
         text-align: center;
         cursor: pointer;
     }
@@ -511,111 +506,106 @@ img{
     }
     
     #twoCon{
-        height: 80vh;
+        height: 140vh;
         width: 90vw;
         /* border: 2px solid black; */
-        position: absolute;
-        top: 10%;
-        left: -10%;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        margin-left: 20px;
+        margin-top: 10px;
     }
     
     #wordDiv{
-        height: 75vh;
-        width: 35vw;
+        height: 80vh;
+        width: 50vw;
         /* border: 2px solid red; */
-        
+        margin-left: 5px;
+        margin-top: 5px;
     }
     
     #divTwo{
-        height: 75vh;
-        width: 35vw;
+        height: 60vh;
+        width: 30vw;
         /* border: 2px solid green; */
-        margin-left: 15px;
-        margin-top: -35px;
+        margin-top: 5px;
+        margin-left: 1px;
     }
     
     .bigWord{
         font-family: 'Times New Roman', Times, serif;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 800;
-        margin-top: -30px;
-        margin-left: 15px;
-        margin-bottom: 80px;
+        margin-top: 5px;
+        margin-left: 5px;
         color: rgb(236, 96, 45);
         border: 5px groove rgb(236, 96, 45);
         border-color: rgb(236, 96, 45), white;
         box-sizing: border-box;
         box-shadow: 4px 4px grey, 4px 4px whitesmoke;
         border-radius: 30px;
-        width: 380px;
-        padding-left: 30px;
+        width: 250px;
+        padding-left: 15px;
         /* display: inline; */
     }
     
     small{
         color: black;
-        font-size: 35px;
+        font-size: 22px;
         text-shadow: 0 0 3px grey, 0 0 5px rgb(236, 96, 45);
     }
     
     
     .para1{
         font-family: Tahoma;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 550;
         text-align: start;
-        /* margin-top: -50px; */
         color: black;
+        margin-left: 20px;
     }
     
     .webword{
-        margin-top: -20px;
         font-style: italic;
         font-size: 25px;
         font-weight: 900;
         color: rgb(236, 96, 45);
+        margin-left: 20px;
     }
     
     .para2{
         font-family: Tahoma;
-        font-size: 20px;
-        font-weight: 800;
+        font-size: 16px;
+        font-weight: 600;
         text-align: start;
         color: black;
     }
     
     img{
         height: 50vh;
-        width: 42vw;
+        width: 25vw;
         margin-left: 35px;
-        margin-top: 120px;
+        margin-top: 5px;
     }
     
     .btnDiv{
         /* border: 2px groove black; */
-        height: 20vh;
-        width: 55vw;
+        height: 15vh;
+        width: 45vw;
         align-items: center;
-        justify-content: space-between;
-        margin-top: -500px;
+        margin-top: -100px;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        margin-left: -30px;
+        margin-left: -100px;
     }
     
     #hire{
-        height: 60px;
-        width: 190px;
+        height: 40px;
+        width: 120px;
         padding: auto;
         border-radius: 7px;
         margin-left: 15px;
-        /* margin-right: 40px; */
-        margin-top: 20px;
-        font-size: 30px;
+        margin-top: 5px;
+        font-size: 20px;
         background-color: black;
         color: rgba(236, 96, 45, 0.904);
     }
@@ -628,14 +618,13 @@ img{
     }
     
     #seeMe{
-        height: 62px;
-        width: 200px;
+        height: 52px;
+        width: 150px;
         padding: auto;
         border-radius: 15px;
         border-color: rgba(236, 96, 45, 0.658);
-        margin-left: 80px;
-        margin-top: 22px;
-        font-size: 20px;
+        margin-top: 10px;
+        font-size: 12px;
         font-weight: 800;
         background-color: rgba(236, 96, 45, 0.801);
     }
@@ -651,25 +640,23 @@ img{
         width: 100vw;
         background-color: rgba(124, 119, 119, 0.945);
         border: none solid black;
-        margin-top: -500px;
+        margin-top: -120px;
         z-index: 10;
     }
     
     .gitHub{
-        /* width: 600px; */
-        height: 40px;
-        margin-top: 10px;
-        margin-left: 500px;
+        width: 300px;
+        height: 30px;
         /* background-color: antiquewhite; */
-        align-items: center;
+        align-items: start;
         display: flex;
         flex-direction: row;
+        margin-left: 500px;
     }
     
     .git{
         width: 60px;
         height: 30px;
-        margin-top: 15px;
         margin-left: -10px;
         /* background-color: antiquewhite; */
     }
@@ -1147,13 +1134,13 @@ img{
         /* background-color: antiquewhite; */
     }
     
-}/* WIDTH 440px */
+}/* WIDTH 400px */
 
-@media (max-width: 440px) {
+@media (max-width: 400px) {
 
     body{
         height: 100vh;
-        width: 99vw;
+        width: 100vw;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -1167,7 +1154,7 @@ img{
     
     .background{
         height: 100vh;
-        width: 99vw;
+        width: 100vw;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -1175,36 +1162,35 @@ img{
         background-color: rgba(255, 255, 255, 0.521);
         background-size: cover;
         scroll-behavior: smooth;
-        /* position: absolute; */
     }
     
     #navbar{
         background-color: rgb(119, 115, 115);
-        height: 10vh;
-        width: 99vw;
+        height: 8vh;
+        width: 100vw;
         justify-content: center;
         z-index: 5;
     }
     
     #navCon{
         height: 8vh;
-        width: 99vw;
+        width: 95vw;
         justify-content: space-evenly;
         padding-top: 20px;
         padding-bottom: -40px;
         z-index: 10;
         font-size: 12px;
-        margin-left: -12px;
+        margin-left: 5px;
     }
     
     
     a{
         text-decoration: none;
         color: black;
-        margin-left: 22px;
+        margin-left: 18px;
         font-size: 10px;
         font-family: Arial, Helvetica, sans-serif;
-        font-weight: 800;
+        font-weight: 900;
         text-align: center;
         cursor: pointer;
     }
@@ -1215,27 +1201,28 @@ img{
     }
     
     #twoCon{
-        height: 80vh;
-        width: 80vw;
+        height: 180vh;
+        width: 90vw;
         /* border: 2px solid black; */
-        margin-top: 170px;
+        margin-top: 10px;
+        margin-left: 30px;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
     }
     
     #wordDiv{
-        height: 70vh;
-        width: 90vw;
+        height: 110vh;
+        width: 85vw;
         /* border: 2px solid red; */
-        margin-left: -45px;
+        margin-left: 8px;
+        margin-top: 10px;
     }
     
     #divTwo{
-        height: 70vh;
-        width: 90vw;
+        height: 60vh;
+        width: 85vw;
         /* border: 2px solid green; */
-        margin-left: 15px;
+        margin-left: 8px;
         margin-top: 15px;
     }
     
@@ -1243,8 +1230,9 @@ img{
         font-family: 'Times New Roman', Times, serif;
         font-size: 45px;
         font-weight: 800;
+        margin-top: 20px;
         margin-left: 5px;
-        margin-bottom: 80px;
+        margin-bottom: 20px;
         color: rgb(236, 96, 45);
         border: 5px groove rgb(236, 96, 45);
         border-color: rgb(236, 96, 45), white;
@@ -1258,7 +1246,7 @@ img{
     
     small{
         color: black;
-        font-size: 23px;
+        font-size: 20px;
         text-shadow: 0 0 3px grey, 0 0 5px rgb(236, 96, 45);
     }
     
@@ -1273,7 +1261,7 @@ img{
     
     .webword{
         font-style: italic;
-        font-size: 35px;
+        font-size: 40px;
         font-weight: 900;
         color: rgb(236, 96, 45);
         text-align: center;
@@ -1289,23 +1277,20 @@ img{
     
     img{
         height: 55vh;
-        width: 85vw;
-        margin-left: -45px;
-        margin-top: 200px;
+        width: 75vw;
+        margin-left: 20px;
+        margin-top: 15px;
     }
     
     .btnDiv{
         /* border: 2px groove black; */
         height: 20vh;
-        width: 60vw;
+        width: 70vw;
         align-items: center;
-        justify-content: space-between;
-        margin-top: 350px;
+        margin-top: 500px;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        margin-left: -30px;
-        /* margin-bottom: 200px; */
+        margin-left: -40px;
     }
     
     #hire{
@@ -1315,7 +1300,7 @@ img{
         border-radius: 7px;
         margin-left: 15px;
         /* margin-right: 40px; */
-        margin-top: 20px;
+        margin-top: 5px;
         font-size: 25px;
         background-color: black;
         color: rgba(236, 96, 45, 0.904);
@@ -1335,7 +1320,7 @@ img{
         border-radius: 15px;
         border-color: rgba(236, 96, 45, 0.658);
         margin-left: 19px;
-        margin-top: 15px;
+        margin-top: 5px;
         font-size: 18px;
         font-weight: 800;
         background-color: rgba(236, 96, 45, 0.801);
@@ -1352,17 +1337,17 @@ img{
         width: 100vw;
         background-color: rgba(124, 119, 119, 0.945);
         border: none solid black;
-        margin-top: 390px;
+        margin-top: 530px;
         z-index: 10;
     }
     
     .gitHub{
-        /* width: 600px; */
-        height: 40px;
+        width: 150px;
+        height: 30px;
         margin-top: 10px;
-        /* margin-left: 200px; */
+        margin-left: 200px;
         /* background-color: antiquewhite; */
-        align-items: end;
+        align-items: start;
         display: flex;
         flex-direction: row;
     }
@@ -1371,7 +1356,7 @@ img{
         width: 60px;
         height: 30px;
         margin-top: 10px;
-        margin-left: -30px;
+        margin-left: -5px;
         /* background-color: antiquewhite; */
     }
     
