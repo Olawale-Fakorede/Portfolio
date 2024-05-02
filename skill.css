@@ -541,21 +541,21 @@ img{
     
     #navbar{
         background-color: silver;
-        height: 10vh;
+        height: 8vh;
         width: 100vw;
         justify-content: center;
         z-index: 5;
     }
     
     #navCon{
-        height: 8vh;
+        height: 5vh;
         width: 95vw;
         justify-content: space-evenly;
-        padding-top: 15px;
+        padding-top: 10px;
         padding-bottom: -40px;
         padding-left: 10px;
         z-index: 10;
-        margin-left: -5px;
+        margin-left: 5px;
     }
     
     a{
@@ -581,7 +581,7 @@ img{
         border: none groove black;
         box-shadow: -4px 4px 4px 4px rgba(147, 147, 207, 0.534);
         margin-top: 30px;
-        margin-left: 15px;
+        margin-left: 20px;
         border-radius: 20px;
         display: grid;
         grid-template-columns: auto  auto;
@@ -603,7 +603,7 @@ img{
     }
     
     img{
-        height: 12vh;
+        height: 15vh;
         width: 30vw;
         
     }
