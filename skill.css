@@ -22,12 +22,12 @@ body{
 
 #navCon{
     height: 10vh;
-    width: 50vw;
+    width: 100vw;
     justify-content: space-evenly;
     padding-top: 20px;
     padding-bottom: -40px;
     z-index: 10;
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 a{
@@ -82,5 +82,530 @@ img:hover{
 img{
     height: 14vh;
     width: 8vw;
+    
+}
+
+/* MEDIA 1200px */
+@media (max-width: 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: cornsilk;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        
+    }
+    
+    #navbar{
+        background-color: silver;
+        height: 10vh;
+        width: 100vw;
+        justify-content: center;
+        z-index: 5;
+    }
+    
+    #navCon{
+        height: 8vh;
+        width: 90vw;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: -40px;
+        padding-left: 100px;
+        z-index: 10;
+        margin-left: 25px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        margin-left: 65px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        color: rgb(236, 96, 45);
+    }
+    
+    #mainDiv{
+        height: 75vh;
+        width: 60vw;
+        background-color: rgba(59, 60, 54, 0.37);
+        border: none groove black;
+        box-shadow: -4px 4px 4px 4px rgba(147, 147, 207, 0.534);
+        margin-top: 40px;
+        margin-left: 200px;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: auto  auto auto auto;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    
+    .myDiv{
+        height: 22vh;
+        width: 12vw;
+        border: none solid black;
+        border-radius: 10px;
+    }
+    
+    img:hover{
+        height: 18vh;
+        width: 10vw;
+        transform: translate3d(20px, 2, 4);
+    }
+    
+    img{
+        height: 18vh;
+        width: 8vw;
+        
+    }
+    
+}
+
+
+/* MEDIA 992px */
+@media (max-width: 992px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: cornsilk;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        
+    }
+    
+    #navbar{
+        background-color: silver;
+        height: 10vh;
+        width: 100vw;
+        justify-content: center;
+        z-index: 5;
+    }
+    
+    #navCon{
+        height: 8vh;
+        width: 90vw;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: -40px;
+        padding-left: 30px;
+        z-index: 10;
+        margin-left: 10px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        margin-left: 35px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        color: rgb(236, 96, 45);
+    }
+    
+    #mainDiv{
+        height: 75vh;
+        width: 60vw;
+        background-color: rgba(59, 60, 54, 0.37);
+        border: none groove black;
+        box-shadow: -4px 4px 4px 4px rgba(147, 147, 207, 0.534);
+        margin-top: 40px;
+        margin-left: 150px;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: auto  auto auto ;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    
+    .myDiv{
+        height: 20vh;
+        width: 12vw;
+        border: none solid black;
+        border-radius: 10px;
+    }
+    
+    img:hover{
+        height: 18vh;
+        width: 10vw;
+        transform: translate3d(20px, 2, 4);
+    }
+    
+    img{
+        height: 16vh;
+        width: 10vw;
+        
+    }
+    
+}
+
+/* MEDIA 768px */
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: cornsilk;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        
+    }
+    
+    #navbar{
+        background-color: silver;
+        height: 10vh;
+        width: 100vw;
+        justify-content: center;
+        z-index: 5;
+    }
+    
+    #navCon{
+        height: 8vh;
+        width: 90vw;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: -40px;
+        padding-left: 30px;
+        z-index: 10;
+        margin-left: 10px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        margin-left: 25px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        color: rgb(236, 96, 45);
+    }
+    
+    #mainDiv{
+        height: 75vh;
+        width: 70vw;
+        background-color: rgba(59, 60, 54, 0.37);
+        border: none groove black;
+        box-shadow: -4px 4px 4px 4px rgba(147, 147, 207, 0.534);
+        margin-top: 40px;
+        margin-left: 120px;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: auto  auto auto ;
+        padding-top: 25px;
+        padding-left: 10px;
+    }
+    
+    .myDiv{
+        height: 20vh;
+        width: 12vw;
+        border: none solid black;
+        border-radius: 10px;
+    }
+    
+    img:hover{
+        height: 18vh;
+        width: 10vw;
+        transform: translate3d(20px, 2, 4);
+    }
+    
+    img{
+        height: 16vh;
+        width: 12vw;
+        
+    }
+    
+}
+
+
+/* MEDIA 600px */
+@media (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: cornsilk;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        
+    }
+    
+    #navbar{
+        background-color: silver;
+        height: 10vh;
+        width: 100vw;
+        justify-content: center;
+        z-index: 5;
+    }
+    
+    #navCon{
+        height: 8vh;
+        width: 90vw;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: -40px;
+        padding-left: 30px;
+        z-index: 10;
+        margin-left: 5px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        color: rgb(236, 96, 45);
+    }
+    
+    #mainDiv{
+        height: 75vh;
+        width: 80vw;
+        background-color: rgba(59, 60, 54, 0.37);
+        border: none groove black;
+        box-shadow: -4px 4px 4px 4px rgba(147, 147, 207, 0.534);
+        margin-top: 40px;
+        margin-left: 60px;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: auto  auto auto ;
+        padding-top: 30px;
+        padding-left: 1px;
+    }
+    
+    .myDiv{
+        height: 20vh;
+        width: 12vw;
+        border: none solid black;
+        border-radius: 10px;
+    }
+    
+    img:hover{
+        height: 18vh;
+        width: 10vw;
+        transform: translate3d(20px, 2, 4);
+    }
+    
+    img{
+        height: 16vh;
+        width: 14vw;
+        
+    }
+    
+}
+
+
+/* MEDIA 440px */
+@media (max-width: 440px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: rgba(231, 206, 107, 0.897);
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        
+    }
+    
+    #navbar{
+        background-color: silver;
+        height: 10vh;
+        width: 100vw;
+        justify-content: center;
+        z-index: 5;
+    }
+    
+    #navCon{
+        height: 8vh;
+        width: 95vw;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: -40px;
+        padding-left: 30px;
+        z-index: 10;
+        margin-left: -3px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        margin-left: 5px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        color: rgb(236, 96, 45);
+    }
+    
+    #mainDiv{
+        height: 90vh;
+        width: 80vw;
+        background-color: rgba(59, 60, 54, 0.37);
+        border: none groove black;
+        box-shadow: -4px 4px 4px 4px rgba(147, 147, 207, 0.534);
+        margin-top: 30px;
+        margin-left: 40px;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: auto  auto;
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+    
+    .myDiv{
+        height: 20vh;
+        width: 22vw;
+        border: none solid black;
+        border-radius: 10px;
+    }
+    
+    img:hover{
+        height: 18vh;
+        width: 10vw;
+        transform: translate3d(20px, 2, 4);
+    }
+    
+    img{
+        height: 16vh;
+        width: 22vw;
+        
+    }
+    
+}
+
+/* MEDIA 300px */
+@media (max-width: 300px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: rgba(231, 206, 107, 0.897);
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        
+    }
+    
+    #navbar{
+        background-color: silver;
+        height: 10vh;
+        width: 100vw;
+        justify-content: center;
+        z-index: 5;
+    }
+    
+    #navCon{
+        height: 8vh;
+        width: 95vw;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: -40px;
+        padding-left: 10px;
+        z-index: 10;
+        margin-left: -5px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        margin-left: 5px;
+        font-size: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        color: rgb(236, 96, 45);
+    }
+    
+    #mainDiv{
+        height: 90vh;
+        width: 85vw;
+        background-color: rgba(59, 60, 54, 0.37);
+        border: none groove black;
+        box-shadow: -4px 4px 4px 4px rgba(147, 147, 207, 0.534);
+        margin-top: 30px;
+        margin-left: 15px;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: auto  auto;
+        padding-top: 30px;
+        padding-left: 4px;
+    }
+    
+    .myDiv{
+        height:20vh;
+        width: 25vw;
+        border: none solid black;
+        border-radius: 10px;
+    }
+    
+    img:hover{
+        height: 18vh;
+        width: 10vw;
+        transform: translate3d(20px, 2, 4);
+    }
+    
+    img{
+        height: 12vh;
+        width: 30vw;
+        
+    }
     
 }
