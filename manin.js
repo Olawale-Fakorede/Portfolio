@@ -22,8 +22,10 @@ function myProjs() {
 }
 
 function onContact() {
-    window.location.href = 'contact.html';
+    // window.location.href = 'contact.html';
     // console.log('clicked');
+    var contactMe = document.getElementById('mycontact');
+    document.querySelector('.mycontact').style.target = contactMe.innerHTML;
 }
 
 

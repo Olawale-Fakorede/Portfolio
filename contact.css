@@ -52,7 +52,7 @@ a:hover{
     justify-content: space-between;
 }
 
-div{
+.mycontact{
     height: 30vh;
     width: 99vw;
     display: flex;
